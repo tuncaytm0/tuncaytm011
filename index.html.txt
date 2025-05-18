@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>tuncaytm0</title>
+
+  <!-- Favicon ekleme -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <style>
+    body {
+      background: linear-gradient(135deg, white 50%, black 50%);
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      position: relative;
+      color: white;
+    }
+
+    /* Sol üstte Game yazısı */
+    .top-left {
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      font-size: 22px;
+      font-weight: bold;
+      color: white;
+      text-shadow: 1px 1px 5px black;
+      user-select: none;
+      z-index: 10;
+    }
+
+    /* Sağ altta AZERBAIJAN yazısı */
+    .bottom-right {
+      position: fixed;
+      bottom: 15px;
+      right: 15px;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      text-shadow: 1px 1px 5px black;
+      user-select: none;
+      z-index: 10;
+    }
+
+    h1 {
+      color: white;
+      background-color: black;
+      padding: 10px 20px;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      font-size: 28px;
+      z-index: 1;
+    }
+
+    .link-button {
+      width: 260px;
+      padding: 15px 20px;
+      margin: 10px 0;
+      border-radius: 30px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      color: white;
+      display: block;
+      user-select: none;
+      border: none;
+    }
+
+    /* Discord: mor-mavi gradient */
+    .discord {
+      background: linear-gradient(45deg, #7b2ff7, #2c3e50);
+    }
+    .discord:hover {
+      filter: brightness(1.2);
+    }
+
+    /* YouTube: kırmızı */
+    .youtube {
+      background-color: #e52d27;
+    }
+    .youtube:hover {
+      filter: brightness(1.2);
+    }
+
+    /* Mənə Dəstək Ol!: beyaz, glow efekti */
+    .support-button {
+      background-color: white;
+      color: black;
+      box-shadow: 0 0 15px 3px rgba(255, 255, 255, 0.7);
+      position: relative;
+      z-index: 5;
+      transition: box-shadow 0.3s ease;
+    }
+    .support-button:hover {
+      box-shadow: 0 0 25px 5px rgba(255, 255, 255, 1);
+    }
+
+    /* TikTok: siyah-mavi gradient */
+    .tiktok {
+      background: linear-gradient(45deg, #010101, #3b82f6);
+    }
+    .tiktok:hover {
+      filter: brightness(1.2);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-left">Game</div>
+  <div class="bottom-right">AZERBAIJAN</div>
+
+  <h1>tuncaytm0</h1>
+
+  <a class="link-button discord" href="https://discord.gg/9hSWwUbWSp" target="_blank">Discord Serverim!</a>
+  <a class="link-button support-button" href="https://kofe.al/@tuncaytm0" target="_blank">Mənə Dəstək Ol!</a>
+  <a class="link-button youtube" href="https://youtube.com/@tuncaytm0" target="_blank">YouTube Kanalım!</a>
+  <a class="link-button tiktok" href="https://tiktok.com/@tuncaytm0" target="_blank">TikTok Profilim!</a>
+
+</body>
+</html>
